@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
         </NavbarItem>
         <NavbarItem className="navbar-item">
-          <Link style={{ color: "white" }} href="#">
+          <Link style={{ color: "white" }} href="#eventstab">
             Events
           </Link>
         </NavbarItem>
