@@ -82,7 +82,9 @@ export default function Home() {
           <div id="eventstab" className="eventstab" style={{marginTop: "20px"}}>
           <h1 style={{ fontSize: "50px", marginBottom: "20px" }}><u>Events</u></h1>
           <div style={{fontSize: "20px", padding: "20px", textAlign: "center", marginTop: "2%" }}>
-          <p style={{ fontSize: "20px" }}>Check back soon for information on upcoming events!</p>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+            <iframe src="https://calendar.google.com/calendar/embed?src=uoftapex%40gmail.com&ctz=America%2FToronto" style={{border: "0", width: "800px", height: "600px", frameborder: "0", scrolling: "no"}}></iframe>
+          </div>
           </div>
           </div>
           <div style={{ height: "20vh" }}></div> {/* Spacer div so that the footer doesn't cover any text. We can remove/change this if we decide to remove the footer and have the disclaimers just on a div */}
