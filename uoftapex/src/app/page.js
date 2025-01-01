@@ -38,7 +38,7 @@ export default function Home() {
         </NavbarContent>
         <NavbarContent justify="end" style={{justifyContent: "end", marginLeft: "60px"}}>
         <NavbarItem className="navbar-item">
-          <Link style={{ color: "white" }} href="https://discord.gg/e6cZtf29YG">
+          <Link style={{ color: "white" }} href="https://discord.gg/e6cZtf29YG" target="_blank">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
