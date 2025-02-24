@@ -21,6 +21,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar {
@@ -40,6 +41,11 @@ body {
   justify-content: center; /* Center items horizontally */
   width: 100%;
   gap: 30px;
+  
+}
+
+.navbar-item{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .footer {
@@ -71,3 +77,4 @@ body {
   box-sizing: border-box; 
   margin-top: 10%;
 }
+
